@@ -1,5 +1,11 @@
+import Navbar from './components/Navbar';
+
 function App() {
-  return <div className='bg-red-500'>Home</div>;
+  return (
+    <div className='h-screen custom-bg'>
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;
