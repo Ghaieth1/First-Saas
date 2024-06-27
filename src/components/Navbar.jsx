@@ -3,7 +3,7 @@ import Button from './Button';
 
 const Navbar = () => {
   return (
-    <div className='pt-8 p-5'>
+    <div className='pt-8 px-5 py-20'>
       <div className='flex justify-between bg-[#0B081C] px-10 rounded-3xl items-center h-[72px] bg-opacity-50 backdrop-blur-md'>
         <img src='src/assets/logo_vaultflow.png' alt='logo' />
 
@@ -14,7 +14,8 @@ const Navbar = () => {
             <li>About us</li>
           </ul>
         </div>
-        <Button />
+
+        <Button>Download the app</Button>
       </div>
     </div>
   );

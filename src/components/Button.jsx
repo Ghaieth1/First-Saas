@@ -1,12 +1,14 @@
 import React from 'react';
 
-const Button = () => {
+const Button = ({ className, children }) => {
   return (
-    <div>
-      <button className='bg-[#ECECEC] text-[#0B081C] font-light py-2 px-5  w-48 rounded-[50px]'>
-        Download the app
-      </button>
-    </div>
+    <button
+      className={`font-light py-3 px-6 w-48 rounded-[50px] ${
+        className || 'bg-[#ECECEC] text-[#0B081C]'
+      }`}
+    >
+      {children}
+    </button>
   );
 };
 
