@@ -3,8 +3,8 @@ import Button from './Button';
 
 const Hero = () => {
   return (
-    <div className='flex flex-wrap justify-center'>
-      <div className='w-[960px] h-[400px]  text-center  content-center  '>
+    <div className='flex flex-wrap justify-center '>
+      <div className='w-[960px] h-[400px]  text-center  content-center pt-[50px] '>
         <p className='text-[#F2F4F8] flex items-center justify-center text-lg font-light px-5 py-2.5 w-[417px] h-[46px] rounded-3xl border-[#FFFFFF] border-opacity-30 border-2 mx-auto'>
           We just raised $20M in Series B. Learn more
         </p>
@@ -30,16 +30,16 @@ const Hero = () => {
         </div>
         <div className='flex  justify-center gap-4 '>
           <Button>Download the app</Button>
-          <Button className='text-[#ECECEC] border-2  border-[#FFFFFF] rounded-3xl'>
+          <Button className='text-gray-300 border-2  border-[#ffffff75] rounded-3xl'>
             Talk to an expert
           </Button>
         </div>
       </div>
       <div>
         <img
-          className='my-20'
           src='/src/assets/VaultFlow_Hero.png'
           alt='vaultflow'
+          className='pb-20 pt-20 my-20'
         />
       </div>
     </div>

@@ -2,12 +2,7 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {
-      colors: {
-        'custom-gradient-start': 'rgba(255, 255, 255, 0.05)',
-        'custom-gradient-end': 'rgba(255, 255, 255, 0)',
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };
