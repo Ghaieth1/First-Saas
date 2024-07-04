@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 .custom-bg {
-  background-image: url('./assets/bg_stack.png');
   background-size: cover;
   background-position: left;
   height: 163vh;
