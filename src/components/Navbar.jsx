@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className='pt-8 px-5 py-20'>
       <div className='flex justify-between bg-[#0B081C] px-10 rounded-3xl items-center h-[72px] bg-opacity-50 backdrop-blur-md'>
-        <img src='src/assets/logo_vaultflow.png' alt='logo' />
+        <img src='../imagess/logo_vaultflow.png' alt='logo' />
 
         <div>
           <ul className='flex gap-8 text-[#ECECEC] font-light '>

@@ -18,7 +18,7 @@ const Features = () => {
             <div className='flex flex-col items-start  w-[578px] border-2 border-[#3b3449] shadow-[0_-3px_10px_rgb(81,74,97)] rounded-[20px] p-[60px] bg-gradient-to-br from-[#160D2B] to-[#03001B]  '>
               <div className='pb-4'>
                 <img
-                  src='/src/assets/analytics.png'
+                  src='../images/analytics.png'
                   alt='analytics'
                   className='w-[50px] h-[50px] '
                 />
@@ -37,7 +37,7 @@ const Features = () => {
             <div className='flex flex-col items-start  w-[578px] border-2 border-[#3b3449] shadow-[0_-3px_10px_rgb(81,74,97)]  rounded-[20px] p-[60px] bg-gradient-to-br from-[#160D2B] to-[#03001B]  '>
               <div className='pb-4'>
                 <img
-                  src='/src/assets/analytics.png'
+                  src='../images/analytics.png'
                   alt='analytics'
                   className='w-[50px] h-[50px] '
                 />
@@ -60,7 +60,7 @@ const Features = () => {
             <div className='flex flex-col items-start  w-[460px]   '>
               <div className='pb-4'>
                 <img
-                  src='/src/assets/code_collaboration.png'
+                  src='../images/code_collaboration.png'
                   alt='analytics'
                   className='w-[50px] h-[50px] '
                 />
@@ -78,7 +78,7 @@ const Features = () => {
             </div>
             <div className='w-[584px] ml-[117px] border-2 border-[#3b3449] shadow-[0_-3px_10px_rgb(81,74,97)] rounded-[20px]'>
               <img
-                src='/src/assets/digital_token.png'
+                src='../images/digital_token.png'
                 alt='digital'
                 className='w-[467px]'
               />

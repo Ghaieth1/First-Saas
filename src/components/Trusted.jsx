@@ -8,13 +8,13 @@ const Trusted = () => {
         organizations
       </p>
       <div className='flex justify-center gap-10 items-center '>
-        <img src='/src/assets/brands/LogoWrapper.png' alt='dell' />
-        <img src='/src/assets/brands/LogoWrapper-1.png' alt='zendesk' />
-        <img src='/src/assets/brands/LogoWrapper-2.png' alt='rakuten' />
-        <img src='/src/assets/brands/LogoWrapper-3.png' alt='pacific' />
-        <img src='/src/assets/brands/LogoWrapper-4.png' alt='ncr' />
-        <img src='/src/assets/brands/LogoWrapper-5.png' alt='lattice' />
-        <img src='/src/assets/brands/LogoWrapper-6.png' alt='ted' />
+        <img src='../images/brands/LogoWrapper.png' alt='dell' />
+        <img src='../images/brands/LogoWrapper-1.png' alt='zendesk' />
+        <img src='../images/brands/LogoWrapper-2.png' alt='rakuten' />
+        <img src='../images/brands/LogoWrapper-3.png' alt='pacific' />
+        <img src='../images/brands/LogoWrapper-4.png' alt='ncr' />
+        <img src='../images/brands/LogoWrapper-5.png' alt='lattice' />
+        <img src='../images/brands/LogoWrapper-6.png' alt='ted' />
       </div>
     </div>
   );

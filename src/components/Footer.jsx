@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
         <div className=' flex items-end justify-end  w-[180px]'>
           <img
-            src='/src/assets/logo_vaultflow.png'
+            src='../images/logo_vaultflow.png'
             alt='logo'
             className='w-[106px] '
           />

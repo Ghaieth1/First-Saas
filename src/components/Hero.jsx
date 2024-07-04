@@ -37,7 +37,7 @@ const Hero = () => {
       </div>
       <div>
         <img
-          src='/src/assets/VaultFlow_Hero.png'
+          src='../images/VaultFlow_Hero.png'
           alt='vaultflow'
           className='pb-20 pt-20 my-20'
         />
