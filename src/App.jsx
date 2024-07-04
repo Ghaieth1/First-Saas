@@ -5,14 +5,11 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Slide from './components/Slide';
 import Trusted from './components/Trusted';
-import bgImage from './images/bg_stack.png'; // Importez l'image
+import bgImage from './images/bg_stack.png';
 
 function App() {
   return (
-    <div
-      className='custom-bg'
-      style={{ backgroundImage: `url(${bgImage})` }} // Utilisez l'image importée ici
-    >
+    <div className='custom-bg' style={{ backgroundImage: `url(${bgImage})` }}>
       <Navbar />
       <Hero />
       <Trusted />

@@ -4,7 +4,7 @@ import Button from './Button';
 const Slide = () => {
   return (
     <div className=' p-[60px] w-[1200px]  h-[440px] mx-auto border-2 border-[#3b3449] shadow-[0_-3px_10px_rgb(81,74,97)]  rounded-[20px]  '>
-      <div className='flex flex-col items-center mx-auto text-center w-[768px] h-[320px] p-[60px]'>
+      <div className='flex flex-col items-center mx-auto text-center w-[768px] h-[320px] '>
         <h1 className='text-white font-bold text-5xl pb-6'>
           Our powerful analytics provides invaluable insights.
         </h1>

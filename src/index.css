@@ -2,17 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  font-family: 'Montserrat', sans-serif;
+  color: #ececec;
+}
+
 .custom-bg {
   background-size: cover;
-  background-position: left;
-  height: 163vh;
+  background-position: center;
+
+  background-repeat: no-repeat;
   width: 100%;
 }
 
 .custom-gradient {
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.05) 5%,
-    rgba(255, 255, 255, 0) 100%
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(
+    to top,
+    rgba(236, 236, 236, 0.305),
+    rgba(236, 236, 236, 1)
   );
 }

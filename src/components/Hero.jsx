@@ -4,7 +4,7 @@ import vaultflowHero from '../images/VaultFlow_Hero.png';
 
 const Hero = () => {
   return (
-    <div className='flex flex-wrap justify-center '>
+    <div className='flex flex-wrap justify-center  '>
       <div className='w-[960px] h-[400px]  text-center  content-center pt-[50px] '>
         <p className='text-[#F2F4F8] flex items-center justify-center text-lg font-light px-5 py-2.5 w-[417px] h-[46px] rounded-3xl border-[#FFFFFF] border-opacity-30 border-2 mx-auto'>
           We just raised $20M in Series B. Learn more
