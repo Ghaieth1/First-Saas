@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './Button';
+import vaultflowHero from '../images/VaultFlow_Hero.png';
 
 const Hero = () => {
   return (
@@ -37,7 +38,7 @@ const Hero = () => {
       </div>
       <div>
         <img
-          src='../images/VaultFlow_Hero.png'
+          src={vaultflowHero}
           alt='vaultflow'
           className='pb-20 pt-20 my-20'
         />

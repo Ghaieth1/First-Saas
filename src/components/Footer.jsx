@@ -1,4 +1,5 @@
 import React from 'react';
+import logoVaultflow from '../images/logo_vaultflow.png';
 
 const Footer = () => {
   return (
@@ -11,7 +12,6 @@ const Footer = () => {
             <li className='pb-1.5'>PR and speaking: press@vaultflow.com</li>
             <li className='pb-10'>New business: newbusiness@vaultflow.com</li>
           </ul>
-
           <h1 className='text-white font-medium text-2xl pb-4'>Careers</h1>
           <p className='text-gray-300 font-light text-lg pb-10'>
             Careers@vaultflow.com
@@ -33,11 +33,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className=' flex items-end justify-end  w-[180px]'>
-          <img
-            src='../images/logo_vaultflow.png'
-            alt='logo'
-            className='w-[106px] '
-          />
+          <img src={logoVaultflow} alt='logo' className='w-[106px] ' />
         </div>
       </div>
     </div>
